@@ -3,34 +3,33 @@ body {
   color: aliceblue;
   text-align: center;
   font-family: sans-serif;
+  margin: 2rem;
 }
 
 .input-display {
-    height: 2rem;
-    background-color: rgb(70, 70, 70);
-    color: aliceblue;
-    margin-bottom: 2rem;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
+  height: 2rem;
+  background-color: rgb(70, 70, 70);
+  color: aliceblue;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
 }
 
 .input-placeholder {
-    height: 1rem;
-    width: 1rem;
-    border: 1px solid darkgray;
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid darkgray;
 }
 
 .focused {
-    background-color: grey;
-    border: 1px solid aliceblue;
+  background-color: grey;
+  border: 1px solid aliceblue;
 }
 
 .keyboard-wrapper {
   display: grid;
-  /* grid-auto-rows: revert-layer;
-    grid-template-columns: repeat(3, 1fr) */
 }
 
 .row {
@@ -41,4 +40,3 @@ body {
 .zero {
   grid-column: 1/3;
 }
-
