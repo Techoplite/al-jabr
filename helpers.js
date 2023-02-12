@@ -1,14 +1,17 @@
-export const initialiseKeyboard = (KEYS) => {
+export const initialiseKeyboard = (KEYS, OPERATORS) => {
     const keyboardWrapper = document.querySelector(".keyboard-wrapper");
     const templateRow = (data) => {
         let template = "";
-        data.map((digit) => {
+        data.map((key) => {
           let className = "";
-          if (digit === 0) {
+          if (key === 0) {
             className = "zero";
           }
+          if (OPERATORS.includes(key)) {
+            className = 'operator'
+          }
           template +=
-            "<button class='digit " + className + "'>" + digit + "</button>";
+            "<button class='key " + className + "'>" + key + "</button>";
         });
         return template;
       };
