@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(29, 29, 29);
+  color: aliceblue;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.keyboard-wrapper {
+  display: grid;
+  /* grid-auto-rows: revert-layer;
+    grid-template-columns: repeat(3, 1fr) */
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.zero {
+  grid-column: 1/3;
+}
