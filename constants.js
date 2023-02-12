@@ -1,5 +1,5 @@
 export const KEYS = [
-  ['ab', 'SYM', 'AC', 'DEL'],
+  ["ab", "SYMB", "AC", "DEL"],
   [7, 8, 9, "+"],
   [4, 5, 6, "-"],
   [1, 2, 3, "/"],
@@ -7,3 +7,5 @@ export const KEYS = [
 ];
 
 export const OPERATORS = ["+", "-", "*", "/"];
+
+export const ACTIONS = ["ab", "SYMB", "AC", "DEL"];
