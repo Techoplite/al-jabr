@@ -10,6 +10,10 @@ body {
   min-height: calc(100vh - 100px);
 }
 
+h1 {
+  margin-top: 0;
+}
+
 .output-display {
   height: 150px;
   background-color: grey;
