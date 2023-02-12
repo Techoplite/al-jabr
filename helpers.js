@@ -23,12 +23,4 @@ export const initialiseKeyboard = (KEYS) => {
           `
         );
       });
-      
-      const inputDisplay = document.querySelector(".input-display");
-      inputDisplay.insertAdjacentHTML(
-        "afterbegin",
-        `
-          <div class='input-placeholder'></div>
-      `
-      );
 }

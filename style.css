@@ -17,21 +17,6 @@ body {
   padding: 1rem;
 }
 
-.input-placeholder {
-  height: 1rem;
-  min-width: 1rem;
-  padding: .5rem .5rem 1rem .5rem;
-  border-radius: 2px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.5rem;
-  overflow-x: scroll;
-  overflow-y: hidden;
-}
-
-.focused {
-  background-color: grey;
-}
-
 .keyboard-wrapper {
   display: grid;
 }
