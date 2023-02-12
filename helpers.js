@@ -1,4 +1,4 @@
-export const initialiseKeyboard = (DIGITS) => {
+export const initialiseKeyboard = (KEYS) => {
     const keyboardWrapper = document.querySelector(".keyboard-wrapper");
     const templateRow = (data) => {
         let template = "";
@@ -13,7 +13,7 @@ export const initialiseKeyboard = (DIGITS) => {
         return template;
       };
       
-      DIGITS.reverse().map((row) => {
+      KEYS.reverse().map((row) => {
         keyboardWrapper.insertAdjacentHTML(
           "afterbegin",
           `

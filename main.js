@@ -4,11 +4,11 @@ import {
   isClickOnInputPlaceholder,
   isInputPlaceHolderFocused,
 } from "./conditions.js";
-import { DIGITS } from "./constants.js";
+import { KEYS } from "./constants.js";
 import { getInputHolder } from "./getters.js";
 import { initialiseKeyboard } from "./helpers.js";
 
-initialiseKeyboard(DIGITS);
+initialiseKeyboard(KEYS);
 
 document.addEventListener("click", (event) => {
   const inputPlaceholder = getInputHolder();
@@ -23,7 +23,7 @@ document.addEventListener("click", (event) => {
     isInputPlaceHolderFocused(event, inputPlaceholder)
   ) {
     inputPlaceholder.insertAdjacentHTML(
-      "beforebegin",
+      "afterBegin",
       event.target.textContent
     );
   }
