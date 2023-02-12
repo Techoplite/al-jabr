@@ -13,7 +13,7 @@ export const initialiseKeyboard = (KEYS, OPERATORS, ACTIONS) => {
       if (ACTIONS.includes(key)) {
         className = "action";
       }
-      template += "<button class='key " + className + "'>" + key + "</button>";
+      template += "<div class='key " + className + "'>" + key + "</div>";
     });
     return template;
   };
